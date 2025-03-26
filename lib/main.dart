@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:riveracurso/my_widgets/myCard.dart';
 
+import 'my_widgets/dialogo_acerca_de.dart';
+
 Color darkblue = Color(0xff585858);
 void main() => runApp(MiTarjeta());
 
@@ -19,7 +21,8 @@ class MiTarjeta extends StatelessWidget {
             backgroundColor: Colors.black,
             centerTitle: true,
           ),
-          body: LaTarjeta()),
+          // body: LaTarjeta()),
+          body: DialogoAcercaDe()),
     );
   }
 }
